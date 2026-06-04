@@ -1,5 +1,5 @@
 export const SITE_CONFIG = {
-  name: "Ashton's Auto Detailing",
+  name: "Ashton's Auto Detail",
   tagline: "Mobile Car Detailing in Cowichan Valley",
   description:
     "Professional mobile interior and exterior detailing delivered directly to your home or workplace. Serving Duncan, Cowichan Valley, and surrounding areas in BC.",
@@ -7,8 +7,8 @@ export const SITE_CONFIG = {
   phoneHref: "tel:2507091371",
   email: "ashtonsly1@gmail.com",
   emailHref: "mailto:ashtonsly1@gmail.com",
-  bookingUrl: "https://cal.com/ashtonsautodetailing",
-  instagramUrl: "https://instagram.com/ashtonsautodetailing",
+  bookingUrl: "https://cal.com/ashtonsautodetail",
+  instagramUrl: "https://instagram.com/ashtonsautodetail",
   domain: "https://ashtonsautodetailing.ca", // swap when live
   location: {
     city: "Duncan",

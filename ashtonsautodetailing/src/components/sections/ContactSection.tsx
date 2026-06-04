@@ -31,7 +31,7 @@ export default function ContactSection() {
                 <a
                   href={SITE_CONFIG.phoneHref}
                   className="flex items-center gap-5 group bg-white/5 hover:bg-white/10 border border-white/8 hover:border-bronze/30 rounded-sm p-5 transition-all duration-200"
-                  aria-label="Call Ashton's Auto Detailing"
+                  aria-label="Call Ashton's Auto Detail"
                 >
                   <div className="w-12 h-12 rounded-sm bg-bronze/20 flex items-center justify-center text-bronze flex-shrink-0 group-hover:bg-bronze/30 transition-colors">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -47,7 +47,7 @@ export default function ContactSection() {
                 <a
                   href={SITE_CONFIG.emailHref}
                   className="flex items-center gap-5 group bg-white/5 hover:bg-white/10 border border-white/8 hover:border-bronze/30 rounded-sm p-5 transition-all duration-200"
-                  aria-label="Email Ashton's Auto Detailing"
+                  aria-label="Email Ashton's Auto Detail"
                 >
                   <div className="w-12 h-12 rounded-sm bg-bronze/20 flex items-center justify-center text-bronze flex-shrink-0 group-hover:bg-bronze/30 transition-colors">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -66,7 +66,7 @@ export default function ContactSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-5 group bg-white/5 hover:bg-white/10 border border-white/8 hover:border-bronze/30 rounded-sm p-5 transition-all duration-200"
-                  aria-label="Instagram - Ashton's Auto Detailing"
+                  aria-label="Instagram - Ashton's Auto Detail"
                 >
                   <div className="w-12 h-12 rounded-sm bg-bronze/20 flex items-center justify-center text-bronze flex-shrink-0 group-hover:bg-bronze/30 transition-colors">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -118,8 +118,8 @@ export default function ContactSection() {
                 </h3>
                 <div className="space-y-2.5">
                   {[
-                    { day: "Monday – Friday", hours: "8:00 AM – 6:00 PM" },
-                    { day: "Saturday", hours: "8:00 AM – 6:00 PM" },
+                    { day: "Monday – Friday", hours: "10:00 AM – 6:00 PM" },
+                    { day: "Saturday", hours: "10:00 AM – 6:00 PM" },
                     { day: "Sunday", hours: "By appointment" },
                   ].map(({ day, hours }) => (
                     <div key={day} className="flex justify-between text-sm">

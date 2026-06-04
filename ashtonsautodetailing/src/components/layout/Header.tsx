@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { SITE_CONFIG } from "@/lib/config";
 
 const navLinks = [
@@ -13,14 +14,7 @@ const navLinks = [
 ];
 
 export default function Header() {
-  const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   const handleNavClick = (href: string) => {
     setMenuOpen(false);
@@ -30,13 +24,7 @@ export default function Header() {
 
   return (
     <>
-      <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled
-            ? "bg-charcoal-800/98 backdrop-blur-md shadow-2xl"
-            : "bg-charcoal-800"
-        }`}
-      >
+      <header className="fixed top-0 left-0 right-0 z-50" style={{ backgroundColor: "#1a1a1a" }}>
         <div className="container-custom">
           <div className="flex items-center justify-between h-[72px]">
             {/* Logo */}
@@ -44,37 +32,22 @@ export default function Header() {
               href="#home"
               onClick={() => handleNavClick("#home")}
               className="flex items-center gap-3 group"
-              aria-label="Ashton's Auto Detailing - Home"
+              aria-label="Ashton's Auto Detail - Home"
             >
-              {/* Logo placeholder */}
-              <div className="w-10 h-10 rounded-sm bg-bronze flex items-center justify-center flex-shrink-0">
-                <svg
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12 2L3 7V12C3 16.55 6.84 20.74 12 22C17.16 20.74 21 16.55 21 12V7L12 2Z"
-                    fill="white"
-                    fillOpacity="0.9"
-                  />
-                  <path
-                    d="M8 12L10.5 14.5L16 9"
-                    stroke="#b8935a"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </div>
+              <Image
+                src="/logo.png"
+                alt="Ashton's Auto Detail logo"
+                width={48}
+                height={48}
+                className="object-contain"
+                priority
+              />
               <div className="leading-tight">
                 <span className="block font-display text-cream font-semibold text-base tracking-wide">
                   Ashton&apos;s
                 </span>
                 <span className="block font-mono text-bronze text-[10px] tracking-[0.2em] uppercase">
-                  Auto Detailing
+                  Auto Detail
                 </span>
               </div>
             </a>
@@ -101,7 +74,7 @@ export default function Header() {
               <a
                 href={SITE_CONFIG.phoneHref}
                 className="flex items-center gap-2 text-cream border border-cream/20 hover:border-bronze hover:text-bronze px-4 py-2 text-sm font-semibold tracking-wide transition-all duration-200 rounded-sm"
-                aria-label="Call Ashton's Auto Detailing"
+                aria-label="Call Ashton's Auto Detail"
               >
                 <PhoneIcon />
                 {SITE_CONFIG.phone}
@@ -124,21 +97,9 @@ export default function Header() {
               aria-label={menuOpen ? "Close menu" : "Open menu"}
               aria-expanded={menuOpen}
             >
-              <span
-                className={`block w-6 h-0.5 bg-current transition-all duration-200 ${
-                  menuOpen ? "rotate-45 translate-y-2" : ""
-                }`}
-              />
-              <span
-                className={`block w-6 h-0.5 bg-current transition-all duration-200 ${
-                  menuOpen ? "opacity-0" : ""
-                }`}
-              />
-              <span
-                className={`block w-6 h-0.5 bg-current transition-all duration-200 ${
-                  menuOpen ? "-rotate-45 -translate-y-2" : ""
-                }`}
-              />
+              <span className={`block w-6 h-0.5 bg-current transition-all duration-200 ${menuOpen ? "rotate-45 translate-y-2" : ""}`} />
+              <span className={`block w-6 h-0.5 bg-current transition-all duration-200 ${menuOpen ? "opacity-0" : ""}`} />
+              <span className={`block w-6 h-0.5 bg-current transition-all duration-200 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
             </button>
           </div>
         </div>
@@ -148,8 +109,9 @@ export default function Header() {
           className={`lg:hidden overflow-hidden transition-all duration-300 ${
             menuOpen ? "max-h-[500px] border-t border-white/10" : "max-h-0"
           }`}
+          style={{ backgroundColor: "#1a1a1a" }}
         >
-          <div className="bg-charcoal-800 px-4 pb-6 pt-4 flex flex-col gap-1">
+          <div className="px-4 pb-6 pt-4 flex flex-col gap-1">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -188,7 +150,8 @@ export default function Header() {
       <div className="lg:hidden fixed bottom-0 left-0 right-0 z-50 flex border-t border-white/10 shadow-2xl">
         <a
           href={SITE_CONFIG.phoneHref}
-          className="flex-1 flex items-center justify-center gap-2 bg-charcoal-800 text-cream py-4 text-sm font-semibold"
+          className="flex-1 flex items-center justify-center gap-2 text-cream py-4 text-sm font-semibold"
+          style={{ backgroundColor: "#1a1a1a" }}
           aria-label="Call Now"
         >
           <PhoneIcon />

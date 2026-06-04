@@ -45,7 +45,7 @@ export default function GallerySection() {
 
         <AnimateOnScroll delay={300}>
           <p className="text-center text-charcoal-400 text-xs mt-8 font-mono tracking-wide">
-            PHOTOS WILL BE ADDED AS WE SERVE CUSTOMERS — CHECK BACK SOON
+            PHOTOS WILL BE ADDED AS WE SERVE CUSTOMERS , CHECK BACK SOON
           </p>
         </AnimateOnScroll>
       </div>

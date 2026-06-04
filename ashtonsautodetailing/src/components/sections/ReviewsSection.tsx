@@ -59,7 +59,7 @@ export default function ReviewsSection() {
               </p>
 
               <p className="text-cream/40 text-sm font-mono tracking-wide uppercase mb-8">
-                — Ashton&apos;s Auto Detailing, Duncan BC
+                , Ashton&apos;s Auto Detailing, Duncan BC
               </p>
 
               <a

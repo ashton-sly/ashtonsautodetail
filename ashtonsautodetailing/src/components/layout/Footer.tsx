@@ -18,7 +18,7 @@ export default function Footer() {
               </div>
               <div className="leading-tight">
                 <span className="block font-display text-cream font-semibold text-base">Ashton&apos;s</span>
-                <span className="block font-mono text-bronze text-[10px] tracking-[0.2em] uppercase">Auto Detailing</span>
+                <span className="block font-mono text-bronze text-[10px] tracking-[0.2em] uppercase">Auto Detail</span>
               </div>
             </div>
             <p className="text-sm leading-relaxed max-w-xs">
@@ -44,7 +44,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-bronze">📍</span>
-                Duncan, BC — Mobile Service
+                Duncan, BC , Mobile Service
               </li>
             </ul>
           </div>

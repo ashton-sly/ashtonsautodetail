@@ -22,7 +22,7 @@ const reasons = [
       </svg>
     ),
     title: "Convenient Scheduling",
-    desc: "Book online or by phone, choose a time that works for you. Morning, afternoon — we work around your life.",
+    desc: "Book online or by phone, choose a time that works for you. Morning, afternoon , we work around your life.",
   },
   {
     icon: (
@@ -41,7 +41,7 @@ const reasons = [
       </svg>
     ),
     title: "Attention to Detail",
-    desc: "Every vehicle is treated with care. We don't cut corners — the goal is to hand your car back looking its best.",
+    desc: "Every vehicle is treated with care. We don't cut corners , the goal is to hand your car back looking its best.",
   },
   {
     icon: (
@@ -51,7 +51,7 @@ const reasons = [
       </svg>
     ),
     title: "Affordable Pricing",
-    desc: "Premium results without premium-shop prices. Exterior details start at just $79 — quality you can afford.",
+    desc: "Premium results without premium-shop prices. Exterior details start at just $79 , quality you can afford.",
   },
   {
     icon: (

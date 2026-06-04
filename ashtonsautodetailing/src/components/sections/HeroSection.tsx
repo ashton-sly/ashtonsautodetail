@@ -26,7 +26,7 @@ export default function HeroSection() {
       {/* Background image placeholder */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900 via-charcoal-800/95 to-charcoal-800/60 z-10" />
-        {/* IMAGE PLACEHOLDER — replace with actual vehicle/detailing photo */}
+        {/* IMAGE PLACEHOLDER , replace with actual vehicle/detailing photo */}
         <div className="w-full h-full bg-charcoal-700 flex items-center justify-center">
           <div className="text-center opacity-20">
             <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="0.5" className="mx-auto text-cream">
@@ -68,12 +68,12 @@ export default function HeroSection() {
             <a
               href={SITE_CONFIG.phoneHref}
               className="group flex items-center justify-center gap-3 bg-bronze text-white font-semibold px-8 py-4 text-base tracking-wide rounded-sm transition-all duration-200 hover:bg-bronze-light hover:shadow-xl hover:shadow-bronze/20 active:scale-95"
-              aria-label="Call Ashton's Auto Detailing"
+              aria-label="Call Ashton's Auto Detail"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.58 3.45 2 2 0 0 1 3.55 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.79a16 16 0 0 0 6.29 6.29l.87-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
               </svg>
-              Call Now — {SITE_CONFIG.phone}
+              Call Now , {SITE_CONFIG.phone}
             </a>
             <a
               href={SITE_CONFIG.bookingUrl}

@@ -12,7 +12,7 @@ const services = [
         <circle cx="7.5" cy="17" r="1.5" /><circle cx="16.5" cy="17" r="1.5" />
       </svg>
     ),
-    description: "A thorough exterior clean that brings your car's finish back to life — from the ground up.",
+    description: "A thorough exterior clean that brings your car's finish back to life , from the ground up.",
     features: [
       "Hand wash & rinse",
       "Wheel & rim cleaning",
@@ -24,7 +24,7 @@ const services = [
   },
   {
     name: "Interior Detail",
-    price: "$99",
+    price: "$119",
     priceLabel: "Starting at",
     icon: (
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -43,14 +43,14 @@ const services = [
   },
   {
     name: "Full Detail",
-    price: "$149",
+    price: "$179",
     priceLabel: "Starting at",
     icon: (
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
       </svg>
     ),
-    description: "The complete package — everything from our interior and exterior details combined into one premium service.",
+    description: "The complete package , everything from our interior and exterior details combined into one premium service.",
     features: [
       "Complete exterior detail",
       "Complete interior detail",
@@ -74,7 +74,7 @@ export default function ServicesSection() {
               Professional Detailing Services
             </h2>
             <p className="text-charcoal-500 max-w-xl mx-auto leading-relaxed">
-              Every package is delivered mobile — we come to your home or workplace anywhere in the{" "}
+              Every package is delivered mobile , we come to your home or workplace anywhere in the{" "}
               <strong>Cowichan Valley</strong>. No shop drop-off required.
             </p>
           </div>
@@ -199,7 +199,7 @@ export default function ServicesSection() {
                 <line x1="12" y1="16" x2="12.01" y2="16" />
               </svg>
               <p className="text-sm text-charcoal-600">
-                <strong className="text-charcoal-800">Free quotes available.</strong> Custom pricing for heavily soiled vehicles — call{" "}
+                <strong className="text-charcoal-800">Free quotes available.</strong> Custom pricing for heavily soiled vehicles , call{" "}
                 <a href={SITE_CONFIG.phoneHref} className="text-bronze font-semibold hover:underline">
                   {SITE_CONFIG.phone}
                 </a>
