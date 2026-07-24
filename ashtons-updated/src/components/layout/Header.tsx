@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/config";
 
 const navLinks = [
@@ -69,6 +70,12 @@ export default function Header() {
                   {link.label}
                 </a>
               ))}
+              <Link
+                href="/blog/"
+                className="text-cream/70 hover:text-bronze text-sm font-medium tracking-wide transition-colors duration-200 whitespace-nowrap"
+              >
+                Blog
+              </Link>
 
               {/* Star rating pill — sits inline with nav */}
               <a
@@ -142,6 +149,13 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
+            <Link
+              href="/blog/"
+              className="text-cream/80 hover:text-bronze text-base py-2.5 border-b border-white/5 last:border-0 transition-colors"
+              onClick={() => setMenuOpen(false)}
+            >
+              Blog
+            </Link>
             {/* Star rating in mobile menu */}
             <div className="flex items-center gap-1.5 py-2.5 border-b border-white/5">
               {[1,2,3,4,5].map(i => (
