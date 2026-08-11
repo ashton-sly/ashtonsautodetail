@@ -72,7 +72,7 @@ export default function AreasSection() {
             <p className="text-charcoal-500 text-sm leading-relaxed">
               Looking for <strong>mobile car detailing in Duncan, BC</strong>? Searching for{" "}
               <strong>auto detailing in Cowichan Valley</strong> or a{" "}
-              <strong>mobile detailer near me</strong>? Ashton&apos;s Auto Detail serves all of the
+              <strong>mobile detailer near me</strong> or <strong>car wash near me</strong>? Ashton&apos;s Auto Detail serves all of the
               Cowichan Valley area, including Duncan, Cobble Hill, Mill Bay, Shawnigan Lake, Ladysmith,
               Chemainus, and more. We bring professional interior and exterior detailing directly to your
               driveway or workplace. Call today for a free quote.

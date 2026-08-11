@@ -44,7 +44,7 @@ export default function HeroSection() {
 
           {/* Subheadline */}
           <p className="text-cream/75 text-lg sm:text-xl max-w-xl leading-relaxed mb-10">
-            Professional mobile interior and exterior detailing delivered directly to your home or workplace. No drop-off. No waiting. Just a spotless car.
+            Professional mobile interior and exterior detailing — the complete car wash and detailing experience — delivered directly to your home or workplace. No drop-off. No waiting. Just a spotless car.
           </p>
 
           {/* CTA Buttons */}

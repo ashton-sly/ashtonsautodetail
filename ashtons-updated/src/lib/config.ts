@@ -42,5 +42,7 @@ export const SITE_CONFIG = {
     "mobile detailing near me",
     "auto detailing near me Duncan",
     "mobile car wash Duncan BC",
+    "car wash near me",
+    "car wash and detailing near me",
   ],
 };

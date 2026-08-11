@@ -29,6 +29,10 @@ const faqs = [
     q: "Can I book a same-week appointment?",
     a: "Yes — same-week appointments are often available. Call 250-709-1371 to check what's open and get a free quote.",
   },
+  {
+    q: "Do you offer car wash and detailing near me in the Cowichan Valley?",
+    a: "Yes — if you're searching for car wash and detailing near me, Ashton's Auto Detailing brings full-service mobile detailing directly to your driveway or workplace anywhere in the Cowichan Valley, including Duncan, Mill Bay, and Chemainus. Call for a free quote and we'll get you booked.",
+  },
 ];
 
 export default function FAQSection() {

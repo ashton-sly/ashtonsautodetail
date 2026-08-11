@@ -32,7 +32,7 @@ const reasons = [
       </svg>
     ),
     title: "We Come to You",
-    desc: "Stay home. Stay at work. All we need is access to a hose for water and a plug for power, and we handle everything else. We show up wherever your car is in the Cowichan Valley.",
+    desc: "Stay home. Stay at work. All we need is access to a hose for water and a plug for power, and we handle everything else. We show up wherever your car is in the Cowichan Valley, so if you're searching for car detailing near me, we're already on our way.",
   },
   {
     icon: (

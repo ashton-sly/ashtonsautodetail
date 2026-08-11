@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_CONFIG.name}`,
   },
   description:
-    "Ashton's Auto Detailing offers professional mobile car detailing in Duncan, BC and the Cowichan Valley. We come to you — at home or work. Interior, exterior, and full detail packages starting at $79.",
+    "Ashton's Auto Detailing: mobile car wash and detailing near me in Duncan, BC & Cowichan Valley. Interior, exterior, and full detail packages starting at $79.",
   keywords: SITE_CONFIG.keywords,
   authors: [{ name: "Ashton's Auto Detailing" }],
   creator: "Ashton's Auto Detailing",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     url: SITE_CONFIG.domain,
     title: `Mobile Car Detailing Duncan BC | ${SITE_CONFIG.name}`,
     description:
-      "Professional mobile car detailing in Duncan, BC and the Cowichan Valley. We come to you. Interior, exterior, and full detail packages starting at $79. Book online today.",
+      "Professional mobile car detailing in Duncan, BC & Cowichan Valley. Interior, exterior, and full detail packages starting at $79. Book online today.",
     siteName: SITE_CONFIG.name,
     images: [
       {
