@@ -4,7 +4,7 @@ Mobile car detailing delivered to your home or workplace in the Cowichan Valley,
 
 ## Exterior Detail
 
-Starting from $79 (Sedan) | $99 (SUV) | $119 (Truck)
+Starting from $89 (Sedan) | $119 (SUV) | $139 (Truck)
 
 - Hand wash with professional-grade car shampoo
 - Wheels and rims deep cleaned, removes brake dust and road grime
@@ -15,7 +15,7 @@ Starting from $79 (Sedan) | $99 (SUV) | $119 (Truck)
 
 ## Interior Detail
 
-Starting from $119 (Sedan) | $139 (SUV) | $159 (Truck)
+Starting from $139 (Sedan) | $159 (SUV) | $179 (Truck)
 
 - Full vacuum of seats, floors, trunk and all gaps
 - UV-protective formula on all interior surfaces, protects dash and trim from sun fading
@@ -26,7 +26,7 @@ Starting from $119 (Sedan) | $139 (SUV) | $159 (Truck)
 
 ## Full Detail
 
-Starting from $179 (Sedan) | $209 (SUV) | $239 (Truck)
+Starting from $219 (Sedan) | $249 (SUV) | $279 (Truck)
 
 - Everything in the exterior detail package
 - Everything in the interior detail package

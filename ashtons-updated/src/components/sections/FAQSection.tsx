@@ -7,7 +7,7 @@ import { SITE_CONFIG } from "@/lib/config";
 const faqs = [
   {
     q: "How much does mobile car detailing cost in Duncan, BC?",
-    a: "Prices start at $79 for an exterior detail, $119 for an interior detail, and $179 for a full detail on a sedan or coupe. SUVs are a bit more, and trucks are at the top of the range. Call for a free quote — custom pricing is available for heavily soiled vehicles.",
+    a: "Prices start at $89 for an exterior detail, $139 for an interior detail, and $219 for a full detail on a sedan or coupe. SUVs are a bit more, and trucks are at the top of the range. Call for a free quote — custom pricing is available for heavily soiled vehicles.",
   },
   {
     q: "Do you need water and power at my location?",

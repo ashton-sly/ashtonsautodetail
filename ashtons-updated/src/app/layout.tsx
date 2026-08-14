@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_CONFIG.name}`,
   },
   description:
-    "Ashton's Auto Detailing: mobile car wash and detailing near me in Duncan, BC & Cowichan Valley. Interior, exterior, and full detail packages starting at $79.",
+    "Ashton's Auto Detailing: mobile car wash and detailing near me in Duncan, BC & Cowichan Valley. Interior, exterior, and full detail packages starting at $89.",
   keywords: SITE_CONFIG.keywords,
   authors: [{ name: "Ashton's Auto Detailing" }],
   creator: "Ashton's Auto Detailing",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     url: SITE_CONFIG.domain,
     title: `Mobile Car Detailing Duncan BC | ${SITE_CONFIG.name}`,
     description:
-      "Professional mobile car detailing in Duncan, BC & Cowichan Valley. Interior, exterior, and full detail packages starting at $79. Book online today.",
+      "Professional mobile car detailing in Duncan, BC & Cowichan Valley. Interior, exterior, and full detail packages starting at $89. Book online today.",
     siteName: SITE_CONFIG.name,
     images: [
       {
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `Mobile Car Detailing Duncan BC | ${SITE_CONFIG.name}`,
     description:
-      "Professional mobile car detailing in Duncan, BC and the Cowichan Valley. We come to you — starting at $79.",
+      "Professional mobile car detailing in Duncan, BC and the Cowichan Valley. We come to you — starting at $89.",
     images: [`${SITE_CONFIG.domain}/images/og-image.jpg`],
   },
   alternates: {
@@ -172,11 +172,11 @@ const localBusinessSchema = {
             },
             priceSpecification: {
               "@type": "PriceSpecification",
-              price: "79",
+              price: "89",
               priceCurrency: "CAD",
-              minPrice: "79",
-              maxPrice: "119",
-              description: "Sedan from $79, SUV from $99, Truck from $119",
+              minPrice: "89",
+              maxPrice: "139",
+              description: "Sedan from $89, SUV from $119, Truck from $139",
             },
           },
           {
@@ -189,11 +189,11 @@ const localBusinessSchema = {
             },
             priceSpecification: {
               "@type": "PriceSpecification",
-              price: "119",
+              price: "139",
               priceCurrency: "CAD",
-              minPrice: "119",
-              maxPrice: "159",
-              description: "Sedan from $119, SUV from $139, Truck from $159",
+              minPrice: "139",
+              maxPrice: "179",
+              description: "Sedan from $139, SUV from $159, Truck from $179",
             },
           },
           {
@@ -206,11 +206,11 @@ const localBusinessSchema = {
             },
             priceSpecification: {
               "@type": "PriceSpecification",
-              price: "179",
+              price: "219",
               priceCurrency: "CAD",
-              minPrice: "179",
-              maxPrice: "239",
-              description: "Sedan from $179, SUV from $209, Truck from $239",
+              minPrice: "219",
+              maxPrice: "279",
+              description: "Sedan from $219, SUV from $249, Truck from $279",
             },
           },
         ],
@@ -252,7 +252,7 @@ const faqSchema = {
       name: "How much does mobile car detailing cost in Duncan, BC?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Ashton's Auto Detailing prices start at $79 for an exterior detail, $119 for an interior detail, and $179 for a full detail on a sedan or coupe. SUVs and trucks are priced slightly higher. Call 250-709-1371 for a free quote.",
+        text: "Ashton's Auto Detailing prices start at $89 for an exterior detail, $139 for an interior detail, and $219 for a full detail on a sedan or coupe. SUVs and trucks are priced slightly higher. Call 250-709-1371 for a free quote.",
       },
     },
     {

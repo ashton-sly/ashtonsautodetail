@@ -4,9 +4,9 @@ import { useState } from "react";
 import { SITE_CONFIG } from "@/lib/config";
 
 const pricing = {
-  exterior: { sedan: 79, suv: 99, truck: 119 },
-  interior: { sedan: 119, suv: 139, truck: 159 },
-  full: { sedan: 179, suv: 209, truck: 239 },
+  exterior: { sedan: 89, suv: 119, truck: 139 },
+  interior: { sedan: 139, suv: 159, truck: 179 },
+  full: { sedan: 219, suv: 249, truck: 279 },
 };
 
 const serviceLabels: Record<string, string> = {

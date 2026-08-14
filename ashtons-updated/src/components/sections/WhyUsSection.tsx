@@ -51,7 +51,7 @@ const reasons = [
       </svg>
     ),
     title: "Affordable Pricing",
-    desc: "Premium results without premium-shop prices. Exterior details start at just $79 — quality you can afford.",
+    desc: "Premium results without premium-shop prices. Exterior details start at just $89 — quality you can afford.",
   },
   {
     icon: (

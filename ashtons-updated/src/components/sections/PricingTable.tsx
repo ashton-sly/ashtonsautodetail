@@ -4,21 +4,21 @@ import { SITE_CONFIG } from "@/lib/config";
 const rows = [
   {
     service: "Exterior Detail",
-    sedan: "$79",
-    suv: "$99",
-    truck: "$119",
+    sedan: "$89",
+    suv: "$119",
+    truck: "$139",
   },
   {
     service: "Interior Detail",
-    sedan: "$119",
-    suv: "$139",
-    truck: "$159",
+    sedan: "$139",
+    suv: "$159",
+    truck: "$179",
   },
   {
     service: "Full Detail",
-    sedan: "$179",
-    suv: "$209",
-    truck: "$239",
+    sedan: "$219",
+    suv: "$249",
+    truck: "$279",
     highlight: true,
   },
 ];
