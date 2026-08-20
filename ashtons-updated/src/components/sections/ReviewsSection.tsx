@@ -6,39 +6,74 @@ import { SITE_CONFIG } from "@/lib/config";
 
 const reviews = [
   {
+    name: "Christy Murray",
+    badge: "Local Guide",
+    stars: 5,
+    text: "My car's inside looks like when I first bought it! Very happy with the service. Ashton did a great job cleaning my car!",
+    timeAgo: "20 hours ago",
+  },
+  {
+    name: "Florian Emprin",
+    badge: null,
+    stars: 5,
+    text: "Ashton did an amazing job!! Paid a lot of attention to every detail, our truck looks brand new again. Highly recommended, friendly and professional service.",
+    timeAgo: "1 week ago",
+  },
+  {
+    name: "Isla Souter",
+    badge: null,
+    stars: 5,
+    text: "Very professional, responded and scheduled me in to clean my car in a very timely manner! He did a fantastic job, great eye to detail — my car looks brand new inside! Highly recommend!",
+    timeAgo: "2 weeks ago",
+  },
+  {
+    name: "Parker Bertrand",
+    badge: null,
+    stars: 5,
+    text: "Ashton did an amazing job detailing my Mustang. He showed up right on time, came to my place, and was great to deal with.",
+    timeAgo: "4 weeks ago",
+  },
+  {
+    name: "Seth Miller",
+    badge: null,
+    stars: 5,
+    text: "Best detailing I have ever had! Very professional and did an amazing job. Highly recommend!",
+    timeAgo: "4 weeks ago",
+  },
+  {
     name: "June Rhodes",
     badge: "Local Guide",
     stars: 5,
     text: "You know how you keep meaning to take the car into the car wash and can't ever seem to time it right? They are closed, or you're rushing, or it just doesn't happen. Ashton takes that whole problem away. He came to me, did an amazing job, and the car looked brand new.",
-    timeAgo: "13 hours ago",
+    timeAgo: "7 weeks ago",
   },
   {
     name: "Yanisa Slydell",
     badge: null,
     stars: 5,
     text: "Ashton detailed the exterior of my BMW and it turned out amazing. He took his time and paid attention to all the little details — the wheels, the paint, the tires, all of it. Would absolutely recommend.",
-    timeAgo: "Yesterday",
+    timeAgo: "8 weeks ago",
   },
   {
     name: "Amanda Sly",
     badge: "Local Guide",
     stars: 5,
     text: "Squeaky clean inside and out!!",
-    timeAgo: "5 days ago",
+    timeAgo: "8 weeks ago",
   },
   {
     name: "Tahlon Buttle",
     badge: null,
     stars: 5,
     text: "Had my vehicle detailed by Ashton this afternoon and couldn't be happier with the results. The attention to detail was outstanding — everything was spotless. Exceeded my expectations. Highly recommend.",
-    timeAgo: "5 days ago",
+    timeAgo: "8 weeks ago",
   },
   {
     name: "Brin Slydell",
     badge: "Local Guide",
     stars: 5,
     text: "Ashton came to my place and cleaned my whole car. He showed up on time, did the job professionally, and charged a fair price. My car looks how it did when I bought it.",
-    timeAgo: "2 weeks ago",
+    timeAgo: "9 weeks ago",
   },
 ];
 
@@ -152,7 +187,7 @@ export default function ReviewsSection() {
                 rel="noopener noreferrer"
                 className="text-cream/50 text-sm hover:text-bronze transition-colors font-mono tracking-wide"
               >
-                5 reviews on Google
+                10 reviews on Google
               </a>
             </div>
           </div>
